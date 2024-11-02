@@ -48,7 +48,7 @@ streamlit run apps/client/web.py
 
 ## Demo 🚀
 
-[![Demo](docs/recording-duckdb_arrow-flight-rpc.png)](docs/recording-duckdb_arrow-flight-rpc.webm)
+[![Demo](docs/recording-duckdb_arrow-flight-rpc.gif)](docs/recording-duckdb_arrow-flight-rpc.mp4)
 
 
 ## Features
