@@ -1,0 +1,4 @@
+duckdb==1.1.2
+pyarrow==18.0.0
+streamlit==1.39.0
+streamlit-ace==0.1.1
