@@ -1,0 +1,11 @@
+sequenceDiagram
+    Actor User
+    Participant Client as WebApp
+    Participant Server as FlightServer
+    User->>+Client: Input SQL Query
+    Client->>+Server: GetFlightInfo(FlightDescriptor.for_command)
+    Server->>Server: Execute SQL Query against DuckDB
+    Server->>-Client: FlightInfo(Flight.Ticket)
+    Client->>+Server: do_get(Flight.Ticket)
+    Server->>-Client: Stream of FlighData
+    Client->>-User: Display Results

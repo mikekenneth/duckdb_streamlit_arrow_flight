@@ -63,6 +63,13 @@ Supported Storage for Apache Arrow Flight Datasets (ONLY local works Currently)
 - [ ] Add NodeManager to manage ephemeral Compute Nodes.
 
 
+## Sequence Diagram
+![SequenDiagram](docs/sequence_diagram.png)
+
 ## Contact
 
 If you have any questions or would like to get in touch, please open an issue on Github or send me an email: <mike.kenneth47@gmail.com>  OR [Twitter/x](https://twitter.com/mikekenneth77).
+
+
+## References
+- [https://arrow.apache.org/docs/format/Flight.html#downloading-data](https://arrow.apache.org/docs/format/Flight.html#downloading-data)
