@@ -1,12 +1,9 @@
 # Remote DuckDB Query Executor with Arrow Flight RPC
 
-## Description
-
+## Description
 This project enables the execution of SQL queries to a remote [DuckDB](https://duckdb.org) instance using [Apache Arrow Flight RPC](https://arrow.apache.org/docs/format/Flight.html) and explore/download the results directly through [Streamlit](https://streamlit.io/) Web interface.
 
-
-## Usage
-
+## Usage
 ### Requirements
 
 Install the needed python modules
@@ -14,8 +11,7 @@ Install the needed python modules
 pip install -r requirements.txt
 ```
 
-### Getting Started
-
+### Getting Started
 1. Create/Update the `.env` file with the below as needed:
 ```bash
 # CAUTION: If using the source .env commande, 
@@ -51,7 +47,7 @@ streamlit run apps/client/web.py
 [![Demo](docs/recording-duckdb_arrow-flight-rpc.gif)](docs/recording-duckdb_arrow-flight-rpc.mp4)
 
 
-## Features
+## Features
 
 - [x] **Remote Query Execution**
 - [ ] **View previous Queries**
